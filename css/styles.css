@@ -80,7 +80,7 @@ h1 {
     }
 }
 
-/*header*/
+/*HEADER*/
 .nav-list,
 .contacts {
     display: none;
@@ -134,7 +134,7 @@ h1 {
 }
 
 
-/*planschet*/
+/*tablet*/
 @media screen and (min-width: 768px) {
     .burger-btn {
         display: none;
@@ -195,7 +195,6 @@ h1 {
             border-radius: 2px;
             background-color: #404BBF;
         }
-    
         .nav-link:hover,
         .nav-link:focus,
         .contacts-link:hover,
@@ -224,7 +223,7 @@ h1 {
        }
    }
    
-/*hero*/
+/*HERO*/
 .hero {
     /* Базовые стили для мобилки (до 767px) */
     width: 100%;
@@ -240,7 +239,6 @@ h1 {
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url('../images/people-office-mobile.jpg');
 }
-
 
 /* Ретина для мобилки */
 @media screen and (min-resolution: 192dpi) {
@@ -260,19 +258,19 @@ h1 {
     margin: 0 auto 72px;
 }
 
-/* Планшет (768px+) */
+/* tablet (768px+) */
 @media screen and (min-width: 768px) {
     .hero {
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url('../images/people-office-tablet.jpg');
     }
-}
-.main-title {
-    font-size: 56px;
-    line-height: 1.07;
-    max-width: 496px;
-    margin-bottom: 36px;
+        .main-title {
+            font-size: 56px;
+            line-height: 1.07;
+            max-width: 496px;
+            margin-bottom: 36px;
+        }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
@@ -283,7 +281,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     }
 }
 
-/*Desktop (1158px+)*/
+/*desktop (1158px+)*/
 @media screen and (min-width: 1158px) {
     .hero {
         max-width: 1440px;
@@ -326,7 +324,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
             background-color: #404bbf;
         }
 
-  /*Our Features*/
+  /*OUR FEATURES*/
   .features-container {
       display: none;
   }
@@ -357,7 +355,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/*TABLET (768px+)*/ 
+/*tablet (768px+)*/ 
 @media screen and (min-width: 768px) {
     .features-list {
         column-gap: 24px;
@@ -394,19 +392,16 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
             margin-bottom: 8px;
             border: 1px solid #8e8f99;
         }
-    
         .section-title {
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
         }
-    
         .section-info {
             font-weight: 400;
         }
 }
-/*Our Team*/
-/* --- MOBILE (база) --- */
+/*OUR TEAM*/
 .team-block {
     background-color: #F4F4FD;
     padding: 96px 0;
@@ -484,7 +479,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     background-color: #404bbf;
 }
 
-/* TABLET (768px+)*/
+/*tablet (768px+)*/
 @media screen and (min-width: 768px) {
     .team-container {
         max-width: 584px;
@@ -495,7 +490,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
         row-gap: 64px;
     }
 }
-/* DESKTOP (1158px+)*/
+/*desktop (1158px+)*/
 @media screen and (min-width: 1158px) {
     .team-block {
         padding: 120px 0;
@@ -506,10 +501,9 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     .team-list {
         gap: 24px;
     }
-
 }
 
-/*Our Portfolio*/
+/*OUR PORTFOLIO*/
 .portfolio-info-image {
     display: block;
     width: 100%;
@@ -518,14 +512,12 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
 .portfolio-block {
     padding: 96px 0;
 }
-
 .portfolio-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -535,7 +527,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     color: #2e2f42;
     margin: 0 0 72px 0;
 }
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -544,7 +535,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     gap: 48px;
     list-style: none;
 }
-
 .portfolio-card {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -554,12 +544,10 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     flex-direction: column;
     width: 100%;
     }
-
 .portfolio-thumb {
     position: relative;
     overflow: hidden;
 }
-
 .portfolio-overlay {
     position: absolute;
     inset: 0;
@@ -572,7 +560,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .portfolio-overlay-text {
     color: #F4F4FD;
     margin: 0;
@@ -580,7 +567,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-
 .portfolio-card:hover,
 .portfolio-card:focus {
     box-shadow:
@@ -588,12 +574,10 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
 .portfolio-card:hover .portfolio-overlay,
 .portfolio-card:focus .portfolio-overlay {
     transform: translateY(0);
 }
-
 .portfolio-info {
     padding: 32px 16px;
     display: flex;
@@ -609,7 +593,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
 .portfolio-position {
     font-weight: 400;
     font-size: 16px;
@@ -618,7 +601,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     color: #434455;
     margin: 0;
 }
-/* --- TABLET (768px+) --- */
+/*tablet (768px+)*/
 @media screen and (min-width: 768px) {
     .portfolio-list {
         column-gap: 24px;
@@ -629,7 +612,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     }
 }
 
-/* --- DESKTOP (1158px+) --- */
+/*desktop (1158px+)*/
 @media screen and (min-width: 1158px) {
     .portfolio-list {
         row-gap: 48px;
@@ -644,7 +627,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     .portfolio-card {
         box-shadow: none;
     }
-
     .portfolio-card:hover {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -653,7 +635,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
 }
 }
 
-/*footer*/
+/*FOOTER*/
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -740,7 +722,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-social-icon:hover,
 .footer-social-icon:focus {
     background-color: #31d0aa;
@@ -758,12 +739,10 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     outline: none;
     border-color: #31d0aa;
 }
-
 .button-subscribe:hover,
 .button-subscribe:focus {
     background-color: #31d0aa;
 }
-
 .footer-form {
     display: flex;
     flex-direction: column;
@@ -802,7 +781,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     text-align: center;
     margin: 0 auto;
 }
-/* --- TABLET (768px+) --- */
+/*tablet (768px+)*/
 @media screen and (min-width: 768px) {
     .footer-container {
         max-width: 584px;
@@ -811,7 +790,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
         align-items: baseline;
         gap: 72px 24px;
     }
-
     .footer-brand,
     .social-media-text,
     .subscribe-footer-text {
@@ -834,7 +812,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
         margin: 0;
     }
 }
-/* --- DESKTOP (1158px+) --- */
+/*desktop (1158px+)*/
 @media screen and (min-width: 1158px) {
     .page-footer {
         padding: 100px 0;
@@ -856,9 +834,7 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     text-align: left;
 }
 }
-
-
-/*Modal Overlay*/
+/*MODAL OVERLAY*/
 .modal-overlay {
     position: fixed;
     z-index: 99999;
@@ -878,7 +854,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     padding: 20px;
     box-sizing: border-box;
 }
-
 .modal-overlay.is-open {
     opacity: 1;
     visibility: visible;
@@ -926,7 +901,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
 .modal-close:hover {
     outline: none;
     background-color: #404BBF;
-
 }
 
 .icon-close {
@@ -937,7 +911,6 @@ screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
 .modal-close:hover .icon-close,
 .modal-close:focus .icon-close {
     fill: #fff;
-
 
 }
 
@@ -1238,6 +1211,5 @@ color: #2E2F42;
 .mobile-menu {
     display: none;
 }
-
 }
 
